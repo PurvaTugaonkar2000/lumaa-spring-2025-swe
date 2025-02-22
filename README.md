@@ -54,7 +54,8 @@ FOREIGN KEY (userId)
 REFERENCES users (id)
 ON DELETE CASCADE;
 
-3. **Environment Variables:**
+## Environment Variables
+
 Environment variables are used to store configuration settings that should not be hard-coded into your source code. In this project, you'll need to configure environment variables for both the backend and (optionally) the frontend.
 
 ### Backend Environment Variables
