@@ -63,6 +63,8 @@ Environment variables are used to store configuration settings that should not b
 Create a file named `.env` in the **backend** directory. This file should contain the following variables:
 
 A sample `.env` file for the backend might look like this:
+
+```
 env
 PGUSER=your_username
 PGHOST=localhost
@@ -71,6 +73,48 @@ PGPASSWORD=your_password
 PGPORT=5432
 JWT_SECRET=your_jwt_secret
 PORT=3000
+```
 
 ## Running the Application
 
+Running the Backend
+Navigate to the Backend Directory:
+Install Dependencies:
+npm install
+Set Up Environment Variables:
+Ensure you have created a .env file in the backend folder with your configuration.
+
+Start the Backend Server:
+Run : npm start
+The backend server will run on the port specified in your .env file (default is 3000).
+
+Running the Frontend
+Navigate to the Frontend Directory:
+Install Dependencies:
+npm install
+
+Start the Frontend Application:
+npm start
+The React app should automatically open in your browser. If it does not, navigate to http://localhost:3000 (or your configured port).
+
+## Testing Notes
+Manual Testing:
+Register a User:
+Use the registration form to create a new user. Basic validations are included in the form.
+Log In:
+Use the login form to authenticate. A JWT token will be generated upon successful login.
+Task Operations:
+Create new tasks using the task creation form.
+Update tasks (e.g., mark as complete/incomplete) via the provided UI.
+Delete tasks using the delete button.
+
+## Salary Expectations 
+Salary Expectations per Hour: 30$/hr
+
+## Video Demo
+A short video demo is provided which demonstrates:
+
+Registering a user.
+Logging in.
+Creating, updating, and deleting tasks.
+Link : https://drive.google.com/file/d/12x-O_2C6kM9TjEt7iKpWBM1K35w-sgrl/view?usp=sharing
