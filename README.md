@@ -71,5 +71,7 @@ PGDATABASE=mytaskscheduler
 PGPASSWORD=your_password
 PGPORT=5432
 JWT_SECRET=your_jwt_secret
-PORT=3000
+PORT=3000```
+
+## Running the Application
 
