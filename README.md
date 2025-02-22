@@ -117,4 +117,4 @@ A short video demo is provided which demonstrates:
 Registering a user.
 Logging in.
 Creating, updating, and deleting tasks.
-Link : https://drive.google.com/file/d/12x-O_2C6kM9TjEt7iKpWBM1K35w-sgrl/view?usp=sharing
+Demo [here](https://drive.google.com/file/d/12x-O_2C6kM9TjEt7iKpWBM1K35w-sgrl/view?usp=sharing)
