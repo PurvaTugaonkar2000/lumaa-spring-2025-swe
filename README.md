@@ -63,15 +63,14 @@ Environment variables are used to store configuration settings that should not b
 Create a file named `.env` in the **backend** directory. This file should contain the following variables:
 
 A sample `.env` file for the backend might look like this:
-
-```env
+env
 PGUSER=your_username
 PGHOST=localhost
 PGDATABASE=mytaskscheduler
 PGPASSWORD=your_password
 PGPORT=5432
 JWT_SECRET=your_jwt_secret
-PORT=3000```
+PORT=3000
 
 ## Running the Application
 
